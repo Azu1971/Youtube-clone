@@ -1,0 +1,32 @@
+.video-card {
+    /* width: 100%; */
+    justify-items: center;
+    padding: 10px 10px 0px 10px;
+}
+
+.video-card img {
+    width: 250px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+    justify-self: center;
+}
+.video-card p {
+    width: 100%; 
+}
+.video-card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    background-color: #121212;
+    border-radius: 8px;
+}
+.grey-text {
+    color: #B0B0B0;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.grey-text:hover {
+    color: #ff0000
+}
